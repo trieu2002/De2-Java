@@ -64,7 +64,7 @@ public class QLHD {
         if(list2.isEmpty()){
             System.out.println("Danh sach khong tim thay");
         }else{
-            for(HOADON item:list) {
+            for(HOADON item:list2) {
            System.out.printf("%-20s%-20s%-20s%-20s%-20s%.2f%n",
         item.getKhachHang().getHoTen(), item.getKhachHang().getCccd(), item.getMaHoaDon(),
         item.getQty(), item.getKhachHang().getId(), item.getKhachHang().getTiLe());
